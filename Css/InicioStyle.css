@@ -1,0 +1,52 @@
+
+/* Se que en la explicacion del proyecto no decia nada de una portada, pero me gusto mucho
+esta idea aqui encontrara los css de la portada*/
+.portada {
+  width: 100%;
+}
+.contenido_Portada {
+  width: 100%;
+  height: 600px;
+  background-image: url(/img/portada.jpg);
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.item {
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+.item h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 100;
+}
+.item h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.titulo {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background: #f8f6f6;
+}
+/*Aqui agregue un poco de estilo al titulo, aqui podra ver los css*/
+.T1 {
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+}
+/*El parrafo de la tabla con su estilo*/
+.parrafo {
+  color: #707070;
+  text-align: justify;
+  margin-left: 12px;
+  margin-right: 12px;
+}

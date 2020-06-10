@@ -1,0 +1,29 @@
+/* Agregue Estilo al titulo para que se pueda visualizar, esto siempre estara en las divisiones que escribi en el main.
+siempre que haya una manera mejor usted me la indica profesor
+*/
+.Contenido {
+  width: 100%;
+}
+.Contenido_titulo {
+  width: 100%;
+  height: 600px;
+}
+.Titulo {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+.Titulo h1 {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background: #f8f6f6;
+}
+.T1 {
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+}

@@ -1,0 +1,57 @@
+/*Aqui esta hoja de estilo es similar al de login pero lleva diferente cositas, como va poder observar,
+si hay otra manera de aplicarlo usted me lo hace saber , para mejorar.*/
+body {
+  background-color: #f8f6f6;
+}
+.formulario {
+  background: #f8f6f6;
+  margin-left: 300px;
+  padding: 3px;
+  margin: auto;
+  width: 50%;
+  padding-top: 20px;
+}
+.contenedor_form {
+  width: 100%;
+  padding: 15px;
+}
+.input-contenedor {
+  margin-bottom: 0px;
+  margin: 20px;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+  font-size: 15px;
+  width: 100%;
+  padding: 10px;
+}
+.input_combo {
+  border: 1px solid #d9d9d9;
+  height: 30px;
+  overflow: hidden;
+  width: 230px;
+}
+.input-area {
+  padding: 10px;
+}
+.input-area textarea {
+  font-size: 15px;
+  width: 100%;
+  height: 100px;
+}
+.bottom {
+  border: none;
+  width: 50%;
+  color: white;
+  font-size: 20px;
+  background: #10222e;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+.bottom:hover {
+  background: cadetblue;
+}

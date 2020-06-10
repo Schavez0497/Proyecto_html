@@ -1,0 +1,6 @@
+Estudiante: Sergio Santiago Chavez Moraga.
+
+Dividi el proyecto en carpetas para un mejor orden, introducci comentarios para que pueda comprender
+mejor mi codigo.
+
+Cual quier recomendación me la hace llegar y tambien correpción para mejor mis futuros proyectos...

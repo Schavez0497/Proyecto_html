@@ -1,0 +1,46 @@
+/*Aqui estan los estilos de la tabla de servicio y contacto. Tambien la utilice para hacer la seccion de "Acerca de
+"*/
+.contenedor {
+  margin: 14px auto;
+  width: 100%;
+}
+#tabla_servicios {
+  background-color: #f8f6f6;
+  text-align: left;
+  border: 1px solid black;
+  width: 100%;
+}
+#tabla_servicios th,td {
+  padding: 10px;
+}
+#tabla_servicios tr {
+  text-align: center;
+  font-size: large;
+}
+#tabla_servicios tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+#tabla_contacto {
+  background-color: #f8f6f6;
+  text-align: left;
+  border: 0px solid black;
+  width: 100%;
+}
+#tabla_contacto th, td {
+  padding: 10px;
+
+}
+#tabla_contacto tr {
+    text-align: center;
+    font-size: large;
+  }
+#tabla_contacto td {
+  text-align: center;
+}
+#tabla_contacto th {
+  padding: 5px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}

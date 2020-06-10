@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Sergio Chavez Moraga">
+    <link rel="stylesheet" href="/Css/Style_Principal.css">
+    <link rel="stylesheet" href="/Css/Menu_Style.css">
+    <link rel="stylesheet" href="/Css/Style.css">
+    <link rel="stylesheet" href="/Css/Style_Registro.css">
+    <link rel="icon" href="/img/logo-final.svg" type="image/svg">
+    <title>Registrate</title>
+</head>
+
+<body>
+    <header>
+        <img src="/img/logo-final.svg" alt="Logo Oficial" class="logo">
+        <nav id="menu">
+            <ul>
+                <li><a href="/Index.html">Inicio</a></li>
+                <li><a href="/Catalogos/Servicios.html">Servicios</a></li>
+                <li><a href="/Catalogos/Contactenos.html">Contactenos </a></li>
+                <li><a href="/Formularios/Inicio_Sesion.html">Inicio de sesión</a></li>
+                <li><a href="#">Registro</a></li>
+                <li><a href="/Catalogos/Acerca_De.html">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div class="Contenido">
+                <div class="Contenido_titulo">
+                    <div class="Titulo">
+                        <h1 class="T1">Registrese</h1>
+                    </div>
+                    <form class="formulario">
+                        <fieldset style="border: none;">
+                            <div class="contenedor_form">
+                                <div class="input-contenedor">
+                                    <input type="text" placeholder="Correo Electronico" required>
+                                </div>
+                                <div class="input-contenedor">
+                                    <input type="password" placeholder="Contraseña" required>
+                                </div>
+                                <div class="input-contenedor">
+                                    <input type="number" placeholder="Telefono">
+                                </div>
+                                <div class="input-contenedor">
+                                    <p>
+                                        Género:
+                                        <label><input type="radio" name="genero" value="masculino">
+                                            Masculino</label>
+                                        <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+                                    </p>
+                                </div>
+                                <div class="input-contenedor">
+                                    <p> Preferencia:
+                                        <select class="input_combo" name="preferencia">
+                                            <option value="1">musicas</option>
+                                            <option value="2">Peliculas</option>
+                                            <option value="2">Programas</option>
+                                            <option value="2">Documentos</option>
+                                        </select>
+                                    </p>
+                                </div>
+                                <div class="input-contenedor">
+                                    <p> Selecciona tu región:
+                                        <select class="input_combo" name="Region">
+                                            <option value="1">Managua</option>
+                                            <option value="2">Carazo</option>
+                                            <option value="2">Leon</option>
+                                            <option value="2">Costa Caribe</option>
+                                        </select>
+                                    </p>
+                                </div>
+                                <div class="input-area">
+                                    <textarea cols="40" rows="5" name="opinion"
+                                        required>Escriba aquí su comentario...</textarea>
+                                </div>
+                                <div class="input-contenedor">
+                                    <p style="text-align: center;">Aceptas los terminos y condiciones. <input
+                                            type="checkbox" name="peliculas" required> Aceptar</p>
+                                </div>
+                                <div class="input-contenedor">
+                                    <p><input class="bottom" type="submit" value="Enviar Registro"></p>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--Aqui tuve problema con el footer, no me dejaba ponerlo en relativo como lo tenia en mi style principal
+    tuve que poner fixed, lo cual no me agrado. Tal vez pueda mirar en que em equivoque aqui, 
+    para poder arreglarlo-->
+    <footer style="position: fixed;">
+        <p class="parrafo1">
+            (c) Todos los derechos reservados 2020
+            Diseñado por <a href="mailto:Schavezmoraga@gmail.com">Sergio Chavez</a>
+        </p>
+    </footer>
+</body>
+
+</html>

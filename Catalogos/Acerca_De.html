@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Sergio Chavez Moraga">
+    <link rel="stylesheet" href="/Css/Style_Principal.css">
+    <link rel="stylesheet" href="/Css/Menu_Style.css">
+    <link rel="stylesheet" href="/Css/Style.css">
+    <!--Aqui use la misma hija de estilo de las tabla de servicio, para no estar repitiendo codigo
+    si no es la menera, me lo hace saber muchas gracias profesor.-->
+    <link rel="stylesheet" href="/Css/Tablas_Style.css">
+    <link rel="stylesheet" href="/Css/style_Acerca.css">
+    <link rel="icon" href="/img/logo-final.svg" type="image/svg">
+
+    <title>Sobre mi</title>
+</head>
+
+<body>
+    <header>
+        <img src="/img/logo-final.svg" alt="Logo Oficial" class="logo">
+        <nav id="menu">
+            <ul>
+                <li><a href="/Index.html">Inicio</a></li>
+                <li><a href="/Catalogos/Servicios.html">Servicios</a></li>
+                <li><a href="/Catalogos/Contactenos.html">Contactenos </a></li>
+                <li><a href="/Formularios/Inicio_Sesion.html">Inicio de sesión</a></li>
+                <li><a href="/Formularios/Registro.html">Registro</a></li>
+                <li><a href="#">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div class="Contenido">
+                <div class="Contenido_titulo">
+                    <div class="Titulo">
+                        <h1 class="T1">Mi Curriculum</h1>
+                        <div id="contenedor">
+                            <table id="tabla_servicios">
+                                <tr>
+                                    <th colspan="2">
+                                        <img src="/img/foto.jpg" alt="foto" width="200px" height="220px">
+                                    </th>
+                                </tr>
+                                <br>
+                                <tr>
+                                    <td>Nombre Completo:</td>
+                                    <td>
+                                        Sergio chavez
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Edad:</td>
+                                    <td>22 años.</td>
+                                </tr>
+                                <tr>
+                                    <td>Dirrección:</td>
+                                    <td>Del hospital santiago 2 cuadras al sur, media al oeste.</td>
+                                </tr>
+                                <tr>
+                                    <td>Email:</td>
+                                    <td><a href="mailto:Schavezmoraga@gmail.com">Schavezmoraga@gmail.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td>GitHud</td>
+                                    <td><a href="https://github.com/Schavez0497">Schavez0497</a></td>
+                                </tr>
+
+                            </table>
+                            <section>
+                                <div id='textopr'>
+                                    <h1>Este es mi conocimiento en CSS y HTML:</h1>
+                                    <p>HTML: <meter min="0" max="100" value="80">80%</meter></p>
+                                    <p>CSS: <meter min="0" max="100" value="60">60%</meter></p>
+                                </div>
+                            </section>
+                            <div id="contenedor">
+                                <table id="tabla_servicios">
+                                    <tr>
+                                        <th colspan="3">
+                                            Mis Objetivos.
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p> 1. Desempeñar de la mejor manera posible mi trabajo, aplicando mis
+                                                conocimientos
+                                                adquiridos, durante mi preparación universitaria y propia, ayuda al
+                                                crecimiento de la empresa.</p>
+                                        </td>
+                                        <td colspan="2"> 2. Estoy dispuesto aprender nuevos conocimientos y asi
+                                            adquiriendo
+                                            mejor
+                                            experiencia, mejorando mi desempeño laboral y profesional.</td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="3">Mis Redes Sociales</th>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://www.facebook.com/sergio.chavezmoraga.7/"><img
+                                                    src="/iconos/facebook.png" alt="facebook.com" width="32px"
+                                                    height="32px"></a></td>
+                                        <td><a href="https://www.instagram.com/sergio_chavez97/"><img
+                                                    src="/iconos/instagram.png" alt="Instagram" width="32px"
+                                                    height="32px"></a></td>
+                                        <td><a href="https://wa.me/50582233027"><img src="/iconos/whatsapp.png"
+                                                    alt="Whatsapp" width="32px" height="32px"></a></td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                            <div id='mediaC'>
+                                <h1>Acerca de mi</h1>
+                                <div class='particion' style="margin-right: 50px;">
+                                    <hgroup>
+                                        <h2>Video</h2>
+                                    </hgroup>
+                                    <video width="320" height="240" controls='controls' title="Mis conocimientos">
+                                        <source src="/Multimedia/WIN_20200609_18_27_10_Pro.mp4" type="video/mp4" />
+                                    </video>
+                                </div>
+                                <hgroup>
+                                    <h2>Audio</h2>
+                                </hgroup>
+                                <div class='particion' style="margin-bottom:50px;">
+                                    <audio controls='controls' title="Mis actividades">
+                                        <source src="/Multimedia/actividades.mpeg" type="audio/mpeg">
+                                    </audio>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--Aqui igual tuve el mismo problema con el footer, como en la sección de regitro.
+Si sabe en que me equivoque profesor, le agradeceria mucho.-->
+    <footer style="position: fixed;">
+        <p class="parrafo1">
+            (c) Todos los derechos reservados 2020
+            Diseñado por <a href="mailto:Schavezmoraga@gmail.com">Sergio Chavez</a>
+        </p>
+    </footer>
+</body>
+
+</html>
