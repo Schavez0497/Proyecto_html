@@ -1,0 +1,13 @@
+div{
+border: 1px;
+border-style: solid;
+
+
+}
+main .col{
+height: 200px;
+border-style: none;
+}
+main .row{
+    border: 0px;
+}
