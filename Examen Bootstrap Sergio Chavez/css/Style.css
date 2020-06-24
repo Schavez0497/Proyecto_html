@@ -45,7 +45,7 @@ main {
   padding: 0;
 }
 #p1 {
-  background-image: url(/Img/Portada.jpg);
+  background-image: url(Img/Portada.jpg);
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
